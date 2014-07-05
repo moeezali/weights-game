@@ -73,7 +73,7 @@ var game = {
 		}
 
 		for(var wIndex in sequence) {
-			$(".weight-sets").append('<div class="draggable">' + sequence[wIndex] + '</div>');
+			$(".weight-sets").append('<div class="draggable"><span>' + sequence[wIndex] + '</span></div>');
 		}
 
 		$(".draggable").draggable();
